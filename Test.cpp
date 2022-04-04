@@ -28,7 +28,7 @@ TEST_CASE("Good input") {
     CHECK(((-a) == b));
     CHECK((((-b)*3) == c));
     CHECK(((a*3) == (1*c)));
-    CHECK(((3*b) == c));
+    CHECK(((3*b) != c));
     CHECK(((9*a) == (c*3)));
     CHECK((a <= c));
     CHECK((b < c));
