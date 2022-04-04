@@ -33,9 +33,9 @@ TEST_CASE("Good input") {
     CHECK((a <= c));
     CHECK((b < c));
     CHECK((a > b));
-    CHECK(((e*f)==e));
+    CHECK(((0*f)==e));
     CHECK(((f)!=(-f)));
-    CHECK(((e*a)==(e*b)));
+    CHECK(((0*a)==(0*b)));
     CHECK((f > d));
     CHECK((h > d));
     CHECK((h <=(d*2)));
@@ -58,3 +58,4 @@ TEST_CASE("Bad input") {
    
 
 }
+
